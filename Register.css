@@ -1,0 +1,97 @@
+#Register{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back_grey{
+    width: 65%;
+    height: 100%;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+    background-color: rgb(241, 240, 254);
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-left: 120px;
+    line-height: 50px;
+}
+.back_grey span{
+    color: rgb(122, 106, 218);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.back_grey h1{
+    font-size: 40px;
+}
+.back_grey p{
+    color: rgb(66, 66, 66);
+    line-height: 25px;
+    font-size: 15px;
+}
+.regist{
+    width: 43%;
+    height: 90%;
+    background-image: url("../Images/banner-bg.jpg");
+    border-radius: 40px;
+    margin-left: -240px;
+    margin-top: 50px;
+}
+.regist input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(141, 125, 223);
+    border: none;
+    outline: none;
+    color: white;
+    width: 70%;
+    height: 50px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.regist button{
+    display: block;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: white;
+    color: rgb(122, 106, 218);
+    border: none;
+    outline: none;
+    width: 30%;
+    height: 50px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.regist button:hover{
+    background-color: rgb(241, 240, 254);
+}
+.regist input::placeholder{
+    color: white;
+}
+.regist .name{
+    margin-top: 100px;
+}
+.regist .message{
+    height: 150px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    margin-top: 150px;
+    background-image: url("../Images/banner-bg.jpg");
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 50px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    font-size: 15px;
+}

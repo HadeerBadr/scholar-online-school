@@ -1,0 +1,125 @@
+#Courses
+{
+    width: 100%;
+    height: 1000px;
+    /* background-color: green; */
+    margin-top: 200px;
+    box-sizing: border-box;
+    padding-top: 120px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Courses span{
+    color: rgb(122, 106, 218);
+    font-weight: bold;
+    font-size: 13px;
+}
+#Courses h1{
+    font-size: 35px;
+}
+.courses-titles{
+    width: 40%;
+    height: 50px;
+    background-color: rgb(241, 240, 254);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-top: 70px;
+}
+#Courses .courses-titles span{
+    color: rgb(91, 91, 91);
+    font-weight: light;
+    font-size: 13px;
+    margin-left: 20px;
+}
+#Courses .s1:hover{
+    color: rgb(122, 106, 218);
+    cursor: pointer;
+}
+#Courses .courses1 , 
+#Courses .courses2
+{
+    margin-top: 50px;
+    width: 83%;
+    height: 350px;
+    /* background-color: green; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#Courses .courses1 div , 
+#Courses .courses2 div 
+{
+    width: 32%;
+    height: 370px;
+    background-color: rgb(241, 240, 254);
+    text-align: left;
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#Courses .courses1 div span , 
+#Courses .courses2 div span{
+    margin-left: 30px;
+    font-size: 15px;
+}
+#Courses .courses1 div h1 , 
+#Courses .courses2 div h1{
+    font-size: 20px;
+    margin-left: 30px;
+}
+#Courses .courses1 div h1:hover , 
+#Courses .courses2 div h1 :hover{
+    font-size: 20px;
+    margin-left: 30px;
+    color : rgb(122, 106, 218);
+}
+#Courses .courses1 img , 
+#Courses .courses2 img{
+    width: 100%; 
+    border-radius: 30px;
+    cursor: pointer;
+}
+#Courses #price
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgba(123, 106, 218, 0.773);
+    box-sizing: border-box;
+    padding-top: 40px;
+    margin-top: -410px;
+    margin-left: 270px;
+    opacity: 0.99999;
+}
+#Courses #price h1
+{
+    font-size: 25px;
+}
+#status
+{
+    width: 90%;
+    height: 350px;
+    margin-top: 200px;
+    background-color: rgb(122, 106, 218);
+    background-image: url('../Images/banner-bg.jpg');
+    border-top-right-radius: 175px;
+    border-bottom-right-radius: 175px;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-top: 90px;
+    line-height: 10px;
+}
+#status h1{
+    font-size: 50px;
+}
+#status h6{
+    font-size: 15px;
+}
